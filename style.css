@@ -10,7 +10,7 @@ body {
   color: #333;
 }
 
-header 
+header {
   background: linear-gradient(135deg, #6fb1fc, #a1c4fd);
   color: white;
   padding: 40px 20px;
@@ -67,6 +67,15 @@ section {
 
 .post p {
   margin-top: 5px;
+}
+
+.delete {
+  background: red;
+  color: white;
+  border: none;
+  padding: 5px 8px;
+  cursor: pointer;
+  border-radius: 4px;
 }
 
 footer {
